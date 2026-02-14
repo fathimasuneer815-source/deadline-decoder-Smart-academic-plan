@@ -2,54 +2,50 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# deadline decoder-smart academic plan 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member1- Fathima Suneer - Ilahia college of Engineering and Technology
+
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
-### Project Description
-[2-3 lines about what your project does]
+###progect description
+Deadline Decoder is a simple web app that helps students manage assignments and exam deadlines without feeling overwhelmed. Instead of staring at one big deadline, the app automatically breaks tasks into small daily goals and creates a smart study plan.This project is designed as a beginner-friendly productivity tool and can be used as a hackathon MVP.
+
 
 ### The Problem statement
-[What problem are you solving?]
+Students often struggle to manage multiple exams deadlines, leading to difficulty to mande the exams.
+This project develops a smart academic planner that tracks deadlines, highlights urgent tasks, and helps students manage their time effectively.
+
 
 ### The Solution
-[How are you solving it?]
+This project provides a smart academic planning system that tracks exam  deadlines with real-time countdown and priority alerts.
+It helps students organize tasks efficiently, reduce stress, and improve time management through a simple and user-friendly dashboard.
 
 ---
 
 ## Technical Details
-
+Frontend: HTML5 (structure), CSS (modern UI design), JavaScript (logic & deadline calculations)
+Core Logic: JavaScript for real-time countdown calculation
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: JavaScript,HTML, Java
+- Tools used:VS Code, Git, GitHub, GitHub Pages, Chrome DevTools
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: remainting the exam date
+- Feature 2:countdown the days
+- feature 3:
+-
 
 ---
 
@@ -66,16 +62,6 @@ List the key features of your project:
 ```bash
 [Run commands - e.g., npm start, python app.py]
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
@@ -103,23 +89,7 @@ List the key features of your project:
 
 ![Workflow](docs/workflow.png)
 *Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
 #### Build Photos
-
-![Team](Add photo of your team here)
-
 ![Components](Add photo of your components here)
 *List out all components shown*
 
@@ -401,8 +371,7 @@ If you used AI tools during development, document them here for transparency:
 ## Team Contributions
 
 - [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+
 
 ---
 
