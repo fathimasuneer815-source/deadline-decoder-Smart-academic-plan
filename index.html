@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deadline Decoder - Smart Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <header>
+        <h1>📅 Deadline Decoder</h1>
+        <p>Smart Academic Planner</p>
+    </header>
+
+    <!-- Summary Cards -->
+    <div class="summary">
+        <div class="card">
+            <h2 id="totalTasks">0</h2>
+            <p>Total Tasks</p>
+        </div>
+        <div class="card urgent">
+            <h2 id="urgentTasks">0</h2>
+            <p>Urgent</p>
+        </div>
+    </div>
+
+    <!-- Add Task Section -->
+    <div class="form-section">
+        <input type="text" id="subject" placeholder="Subject Name">
+        <input type="date" id="deadline">
+        <select id="priority">
+            <option value="Low">Low Priority</option>
+            <option value="Medium">Medium Priority</option>
+            <option value="High">High Priority</option>
+        </select>
+        <button onclick="addTask()">Add Deadline</button>
+    </div>
+
+    <!-- Task Display -->
+    <div class="tasks">
+        <h3>Upcoming Deadlines</h3>
+        <div id="taskContainer"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

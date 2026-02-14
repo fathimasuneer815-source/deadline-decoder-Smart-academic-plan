@@ -1,0 +1,126 @@
+<* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+/* Summary Cards */
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.urgent {
+    background: rgba(255, 99, 132, 0.4);
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-section input,
+.form-section select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-section button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #00c9a7;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-section button:hover {
+    background: #00b894;
+}
+
+/* Tasks */
+.tasks {
+    margin-top: 20px;
+}
+
+.task-card {
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.task-card:hover {
+    transform: translateY(-3px);
+}
+
+.high {
+    border-left: 6px solid red;
+}
+
+.medium {
+    border-left: 6px solid orange;
+}
+
+.low {
+    border-left: 6px solid green;
+}
